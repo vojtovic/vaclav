@@ -102,7 +102,7 @@
             <code>
               let x = 0; // s přiřazením hodnoty<br />
               let x; // bez přiřazení hodnoty<br />
-              let x = null; // promena x se vytvori ale nema zadnou hodnotu<br />
+              let x = null; // proměná x se vytvoří ale nemá žádnou hodnotu<br />
               let x = 69 // celé číslo (typ number)<br />
               let x = 4.20 // reálné číslo (typ number)<br />
               let x = 0.3e5 // zápis desetinného čísla pomocí exponentu<br />
@@ -225,7 +225,7 @@
           sedmy.innerText = 'ahoj:'  + firstName + ' ' + secondName+'.';
           let weight = 60;
           let height = 177;
-          sedmy.innerHTML += ` <p>Moje vahe je ${ weight } kg a výška je ${height} cm .</p>`;
+          sedmy.innerHTML += ` <p>Moje váha je ${ weight } kg a výška je ${height} cm .</p>`;
           </script>
         </div>
         <div class="col-sm-6 bg-secondary text-light p-5">
@@ -434,7 +434,7 @@
             function datumaCas(){
               let cas = new Date();
               console.log(cas);
-              return `Aktualni datum je  ${cas.toLocaleDateString()} a cas ${cas.toLocaleTimeString()}  `;   
+              return `Aktualní datum je  ${cas.toLocaleDateString()} a čas ${cas.toLocaleTimeString()}  `;   
             }
             console.log(datumaCas());
             document.getElementById('trinacty').innerHTML = datumaCas();
